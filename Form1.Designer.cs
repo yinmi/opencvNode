@@ -87,7 +87,7 @@ namespace opencvNode
             this.窗口ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 35);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1434, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1366, 25);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -100,37 +100,37 @@ namespace opencvNode
             this.另存为ToolStripMenuItem,
             this.退出ToolStripMenuItem});
             this.文件ToolStripMenuItem.Name = "文件ToolStripMenuItem";
-            this.文件ToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.文件ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
             this.文件ToolStripMenuItem.Text = "文件";
             // 
             // 新建ToolStripMenuItem
             // 
             this.新建ToolStripMenuItem.Name = "新建ToolStripMenuItem";
-            this.新建ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.新建ToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.新建ToolStripMenuItem.Text = "新建";
             // 
             // 打开ToolStripMenuItem
             // 
             this.打开ToolStripMenuItem.Name = "打开ToolStripMenuItem";
-            this.打开ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.打开ToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.打开ToolStripMenuItem.Text = "打开";
             // 
             // 保存ToolStripMenuItem
             // 
             this.保存ToolStripMenuItem.Name = "保存ToolStripMenuItem";
-            this.保存ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.保存ToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.保存ToolStripMenuItem.Text = "保存";
             // 
             // 另存为ToolStripMenuItem
             // 
             this.另存为ToolStripMenuItem.Name = "另存为ToolStripMenuItem";
-            this.另存为ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.另存为ToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.另存为ToolStripMenuItem.Text = "另存为";
             // 
             // 退出ToolStripMenuItem
             // 
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.退出ToolStripMenuItem.Text = "退出";
             // 
             // 设置ToolStripMenuItem
@@ -139,19 +139,19 @@ namespace opencvNode
             this.主界面设置ToolStripMenuItem,
             this.系统设置ToolStripMenuItem});
             this.设置ToolStripMenuItem.Name = "设置ToolStripMenuItem";
-            this.设置ToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.设置ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
             this.设置ToolStripMenuItem.Text = "设置";
             // 
             // 主界面设置ToolStripMenuItem
             // 
             this.主界面设置ToolStripMenuItem.Name = "主界面设置ToolStripMenuItem";
-            this.主界面设置ToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
+            this.主界面设置ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.主界面设置ToolStripMenuItem.Text = "主界面设置";
             // 
             // 系统设置ToolStripMenuItem
             // 
             this.系统设置ToolStripMenuItem.Name = "系统设置ToolStripMenuItem";
-            this.系统设置ToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
+            this.系统设置ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.系统设置ToolStripMenuItem.Text = "系统设置";
             // 
             // 操作ToolStripMenuItem
@@ -161,25 +161,25 @@ namespace opencvNode
             this.单次ToolStripMenuItem,
             this.停止ToolStripMenuItem});
             this.操作ToolStripMenuItem.Name = "操作ToolStripMenuItem";
-            this.操作ToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.操作ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
             this.操作ToolStripMenuItem.Text = "操作";
             // 
             // 循环ToolStripMenuItem
             // 
             this.循环ToolStripMenuItem.Name = "循环ToolStripMenuItem";
-            this.循环ToolStripMenuItem.Size = new System.Drawing.Size(122, 26);
+            this.循环ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.循环ToolStripMenuItem.Text = "循环";
             // 
             // 单次ToolStripMenuItem
             // 
             this.单次ToolStripMenuItem.Name = "单次ToolStripMenuItem";
-            this.单次ToolStripMenuItem.Size = new System.Drawing.Size(122, 26);
+            this.单次ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.单次ToolStripMenuItem.Text = "单次";
             // 
             // 停止ToolStripMenuItem
             // 
             this.停止ToolStripMenuItem.Name = "停止ToolStripMenuItem";
-            this.停止ToolStripMenuItem.Size = new System.Drawing.Size(122, 26);
+            this.停止ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.停止ToolStripMenuItem.Text = "停止";
             // 
             // 窗口ToolStripMenuItem
@@ -188,19 +188,19 @@ namespace opencvNode
             this.主页ToolStripMenuItem,
             this.流程编辑ToolStripMenuItem});
             this.窗口ToolStripMenuItem.Name = "窗口ToolStripMenuItem";
-            this.窗口ToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.窗口ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
             this.窗口ToolStripMenuItem.Text = "窗口";
             // 
             // 主页ToolStripMenuItem
             // 
             this.主页ToolStripMenuItem.Name = "主页ToolStripMenuItem";
-            this.主页ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.主页ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.主页ToolStripMenuItem.Text = "主页";
             // 
             // 流程编辑ToolStripMenuItem
             // 
             this.流程编辑ToolStripMenuItem.Name = "流程编辑ToolStripMenuItem";
-            this.流程编辑ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.流程编辑ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.流程编辑ToolStripMenuItem.Text = "流程编辑";
             // 
             // uiSymbolButton1
@@ -268,7 +268,7 @@ namespace opencvNode
             // 
             this.uiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.uiButton1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiButton1.Location = new System.Drawing.Point(1319, 66);
+            this.uiButton1.Location = new System.Drawing.Point(1257, 66);
             this.uiButton1.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiButton1.Name = "uiButton1";
             this.uiButton1.Size = new System.Drawing.Size(106, 40);
@@ -281,7 +281,7 @@ namespace opencvNode
             // 
             this.uiButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.uiButton2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiButton2.Location = new System.Drawing.Point(1206, 66);
+            this.uiButton2.Location = new System.Drawing.Point(1145, 66);
             this.uiButton2.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiButton2.Name = "uiButton2";
             this.uiButton2.Size = new System.Drawing.Size(106, 40);
@@ -318,7 +318,7 @@ namespace opencvNode
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1434, 812);
+            this.ClientSize = new System.Drawing.Size(1366, 728);
             this.Controls.Add(this.uiLabel2);
             this.Controls.Add(this.uiLabel1);
             this.Controls.Add(this.uiButton2);
