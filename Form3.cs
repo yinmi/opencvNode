@@ -41,11 +41,11 @@ namespace opencvNode
         private void addTapage(object sender, DrawItemEventArgs e)
         {
             //设置笔刷
-            SolidBrush blue = new SolidBrush(Color.FromArgb(0x50A0ff));
+            SolidBrush blue = new SolidBrush(Color.FromArgb(0x50,0xA0,0xff));
             SolidBrush white = new SolidBrush(Color.White);      
              //设置背景
-             Rectangle rectangleRed = tabControl1.GetTabRect(0);
-             e.Graphics.FillRectangle(blue, rectangleRed);
+             
+             //e.Graphics.FillRectangle(blue, rectangleRed);
           
              //设置标签文字居中对齐
             StringFormat stringFormat = new StringFormat();
@@ -55,7 +55,9 @@ namespace opencvNode
              for (int i = 0; i <tabControl1.TabPages.Count; i++)
              {
                 Rectangle rec = tabControl1.GetTabRect(i);
-               //设置文字字体和文字大小
+                //设置背景
+                e.Graphics.FillRectangle(blue, rec);
+                //设置文字字体和文字大小
                 e.Graphics.DrawString(tabControl1.TabPages[i].Text, new Font("宋体", 10),white , rec, stringFormat);
                }
         }
