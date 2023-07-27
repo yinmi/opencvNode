@@ -116,14 +116,16 @@ namespace opencvNode
             this.deleteTabpage.MinimumSize = new System.Drawing.Size(1, 1);
             this.deleteTabpage.Name = "deleteTabpage";
             this.deleteTabpage.Size = new System.Drawing.Size(36, 31);
+            this.deleteTabpage.Symbol = 61544;
             this.deleteTabpage.TabIndex = 3;
             this.deleteTabpage.TipsFont = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.deleteTabpage.Click += new System.EventHandler(this.deleteTabpage_Click);
             // 
             // uiSymbolButton2
             // 
             this.uiSymbolButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.uiSymbolButton2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiSymbolButton2.Location = new System.Drawing.Point(118, 2);
+            this.uiSymbolButton2.Location = new System.Drawing.Point(118, 1);
             this.uiSymbolButton2.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolButton2.Name = "uiSymbolButton2";
             this.uiSymbolButton2.Size = new System.Drawing.Size(37, 32);

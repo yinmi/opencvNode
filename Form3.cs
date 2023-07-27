@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Sunny.UI;
 
@@ -30,7 +24,18 @@ namespace opencvNode
 
         private void uiSymbolButton1_Click(object sender, EventArgs e)
         {
+            //增加流程编辑窗口
+           if(tabControl1.TabPages.Count<=13)
+            {
+                NodeEditPage nodeEditPage = new NodeEditPage();
+                TabPage newPage = new TabPage();
+                newPage.Text = "newpage";
+                newPage.Controls.Add(nodeEditPage);
+                tabControl1.TabPages.Add(newPage);
 
+                nodeEditPage.Show();
+            }
+     
         }
 
         private void stNodeEditor1_Click(object sender, EventArgs e)
@@ -60,6 +65,17 @@ namespace opencvNode
                 //设置文字字体和文字大小
                 e.Graphics.DrawString(tabControl1.TabPages[i].Text, new Font("宋体", 10),white , rec, stringFormat);
                }
+        }
+
+        private void deleteTabpage_Click(object sender, EventArgs e)
+        {
+            //移除当前选中流程页
+            if(tabControl1.TabPages.Count>1)
+            {
+                
+                tabControl1.TabPages.Remove(tabControl1.SelectedTab);
+
+            }
         }
     }
 }
