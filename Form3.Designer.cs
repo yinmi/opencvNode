@@ -73,9 +73,9 @@ namespace opencvNode
             // 
             this.tabPage1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.tabPage1.Controls.Add(this.stNodeEditor1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 36);
+            this.tabPage1.Location = new System.Drawing.Point(4, 30);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Size = new System.Drawing.Size(1244, 632);
+            this.tabPage1.Size = new System.Drawing.Size(1244, 638);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             // 
@@ -132,11 +132,12 @@ namespace opencvNode
             this.uiSymbolButton2.Symbol = 61459;
             this.uiSymbolButton2.TabIndex = 4;
             this.uiSymbolButton2.TipsFont = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiSymbolButton2.Click += new System.EventHandler(this.uiSymbolButton2_Click);
             // 
             // Form3
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1426, 668);
+            this.ClientSize = new System.Drawing.Size(1386, 668);
             this.Controls.Add(this.uiSymbolButton2);
             this.Controls.Add(this.deleteTabpage);
             this.Controls.Add(this.addTabpage);

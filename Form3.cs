@@ -77,5 +77,19 @@ namespace opencvNode
 
             }
         }
+
+        private void uiSymbolButton2_Click(object sender, EventArgs e)
+        {
+            //设置选中标签的参数
+            toolWindow.SetNodeEditWin setNodeEditWin = new toolWindow.SetNodeEditWin();
+            setNodeEditWin.ShowDialog();
+
+            if(setNodeEditWin.IsOK)
+            {
+                tabControl1.SelectedTab.Text = setNodeEditWin.editname;
+            }
+
+            setNodeEditWin.Dispose();
+        }
     }
 }
