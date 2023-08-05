@@ -57,6 +57,7 @@ namespace opencvNode
             this.stNodeTreeView1.Text = "stNodeTreeView1";
             this.stNodeTreeView1.TextBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.stNodeTreeView1.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.stNodeTreeView1.Click += new System.EventHandler(this.stNodeTreeView1_Click);
             // 
             // tabControl1
             // 

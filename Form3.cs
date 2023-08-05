@@ -15,6 +15,7 @@ namespace opencvNode
         private void Form3_Load(object sender, EventArgs e)
         {
 
+            stNodeTreeView1.AddNode(typeof(STnode.Node_GetPicture));
         }
 
         private void uiLabel1_Click(object sender, EventArgs e)
@@ -90,6 +91,11 @@ namespace opencvNode
             }
 
             setNodeEditWin.Dispose();
+        }
+
+        private void stNodeTreeView1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

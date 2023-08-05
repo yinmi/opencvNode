@@ -113,5 +113,14 @@ namespace opencvNode.tool
         /// </summary>
         public Guid Tool_guid { set; get; }
 
+        public Guid InputNode_guid { set; get; }
+
+        public List<Guid> OutputNode_guid { set; get; }
+
+        public BaseTool()
+        {
+            Tool_guid = Guid.NewGuid();
+        }
+
     }
 }
