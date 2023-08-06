@@ -71,7 +71,7 @@ namespace opencvNode
             this.uiTabControl1.MainPage = "";
             this.uiTabControl1.Name = "uiTabControl1";
             this.uiTabControl1.SelectedIndex = 0;
-            this.uiTabControl1.Size = new System.Drawing.Size(1428, 668);
+            this.uiTabControl1.Size = new System.Drawing.Size(1363, 613);
             this.uiTabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.uiTabControl1.TabIndex = 0;
             this.uiTabControl1.TabVisible = false;
@@ -336,6 +336,7 @@ namespace opencvNode
             this.Text = "Form1";
             this.ZoomScaleRect = new System.Drawing.Rectangle(19, 19, 1235, 686);
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.LocationChanged += new System.EventHandler(this.locationChanged);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

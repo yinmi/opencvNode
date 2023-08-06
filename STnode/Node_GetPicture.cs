@@ -13,7 +13,7 @@ namespace opencvNode.STnode
     public class Node_GetPicture:STNode
     {
 
-        
+
         public Node_GetPicture()
         {
             this.Title = "获取图片";
@@ -34,11 +34,22 @@ namespace opencvNode.STnode
          }
        protected override void OnMouseClick(MouseEventArgs e)
         {
-            base.OnMouseClick(e);
+           
 
-            MessageBox.Show("sss");
+            /*
+            if(e.Button==MouseButtons.Right)
+            {
+                Point p = new Point();
+                p.X = this.Location.X + e.X;
+                p.y = this.Location.Y + e.Y;
+                
+            }
+           */
+
 
         }
+
+     
         
 }
 }

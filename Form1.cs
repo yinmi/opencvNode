@@ -12,6 +12,7 @@ namespace opencvNode
 
         private void Form1_Load(object sender, System.EventArgs e)
         {
+           
             this.uiLabel2.Text = System.DateTime.Now.ToString("t");
             if (!ExistPage(1002))
             {
@@ -44,6 +45,12 @@ namespace opencvNode
             }
 
             SelectPage(1002);
+        }
+
+        private void locationChanged(object sender, System.EventArgs e)
+        {
+            share.ShareClass.formX = this.Location.X;
+            share.ShareClass.formY = this.Location.Y;
         }
     }
 }

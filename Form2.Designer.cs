@@ -34,7 +34,7 @@ namespace opencvNode
             // Form2
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1426, 668);
+            this.ClientSize = new System.Drawing.Size(1363, 613);
             this.Name = "Form2";
             this.PageIndex = 1002;
             this.Text = "Form2";

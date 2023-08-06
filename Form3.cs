@@ -16,6 +16,15 @@ namespace opencvNode
         {
 
             stNodeTreeView1.AddNode(typeof(STnode.Node_GetPicture));
+
+            //初始化一个页面
+            NodeEditPage nodeEditPage = new NodeEditPage();
+            TabPage newPage = new TabPage();
+            newPage.Text = "newpage";
+            newPage.Controls.Add(nodeEditPage);
+            tabControl1.TabPages.Add(newPage);
+            nodeEditPage.Show();
+
         }
 
         private void uiLabel1_Click(object sender, EventArgs e)
@@ -41,7 +50,7 @@ namespace opencvNode
 
         private void stNodeEditor1_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void addTapage(object sender, DrawItemEventArgs e)

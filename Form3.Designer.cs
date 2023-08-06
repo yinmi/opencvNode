@@ -31,13 +31,9 @@ namespace opencvNode
         {
             this.stNodeTreeView1 = new ST.Library.UI.NodeEditor.STNodeTreeView();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.stNodeEditor1 = new ST.Library.UI.NodeEditor.STNodeEditor();
             this.addTabpage = new Sunny.UI.UISymbolButton();
             this.deleteTabpage = new Sunny.UI.UISymbolButton();
             this.uiSymbolButton2 = new Sunny.UI.UISymbolButton();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // stNodeTreeView1
@@ -52,7 +48,7 @@ namespace opencvNode
             this.stNodeTreeView1.MinimumSize = new System.Drawing.Size(100, 60);
             this.stNodeTreeView1.Name = "stNodeTreeView1";
             this.stNodeTreeView1.ShowFolderCount = true;
-            this.stNodeTreeView1.Size = new System.Drawing.Size(177, 636);
+            this.stNodeTreeView1.Size = new System.Drawing.Size(177, 577);
             this.stNodeTreeView1.TabIndex = 0;
             this.stNodeTreeView1.Text = "stNodeTreeView1";
             this.stNodeTreeView1.TextBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
@@ -61,40 +57,13 @@ namespace opencvNode
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
             this.tabControl1.Location = new System.Drawing.Point(175, -2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1252, 672);
+            this.tabControl1.Size = new System.Drawing.Size(1188, 613);
             this.tabControl1.TabIndex = 1;
             this.tabControl1.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.addTapage);
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.tabPage1.Controls.Add(this.stNodeEditor1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 30);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Size = new System.Drawing.Size(1244, 638);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
-            // 
-            // stNodeEditor1
-            // 
-            this.stNodeEditor1.AllowDrop = true;
-            this.stNodeEditor1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.stNodeEditor1.Curvature = 0.3F;
-            this.stNodeEditor1.Location = new System.Drawing.Point(-4, 1);
-            this.stNodeEditor1.LocationBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.stNodeEditor1.MarkBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.stNodeEditor1.MarkForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.stNodeEditor1.MinimumSize = new System.Drawing.Size(100, 100);
-            this.stNodeEditor1.Name = "stNodeEditor1";
-            this.stNodeEditor1.Size = new System.Drawing.Size(1251, 634);
-            this.stNodeEditor1.TabIndex = 0;
-            this.stNodeEditor1.Text = "stNodeEditor1";
-            this.stNodeEditor1.Click += new System.EventHandler(this.stNodeEditor1_Click);
             // 
             // addTabpage
             // 
@@ -138,7 +107,7 @@ namespace opencvNode
             // Form3
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1386, 668);
+            this.ClientSize = new System.Drawing.Size(1363, 613);
             this.Controls.Add(this.uiSymbolButton2);
             this.Controls.Add(this.deleteTabpage);
             this.Controls.Add(this.addTabpage);
@@ -148,8 +117,6 @@ namespace opencvNode
             this.PageIndex = 1003;
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -158,8 +125,6 @@ namespace opencvNode
 
         private ST.Library.UI.NodeEditor.STNodeTreeView stNodeTreeView1;
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private ST.Library.UI.NodeEditor.STNodeEditor stNodeEditor1;
         private Sunny.UI.UISymbolButton addTabpage;
         private Sunny.UI.UISymbolButton deleteTabpage;
         private Sunny.UI.UISymbolButton uiSymbolButton2;
