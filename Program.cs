@@ -14,9 +14,20 @@ namespace opencvNode
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+           
+            try
+            {
+                share.Log4Helper.Log.Info("打开程序");
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new Form1());
+            }
+            catch(Exception ex)
+            {
+                share.Log4Helper.Log.Error(ex);
+               
+            }
+         
         }
     }
 }

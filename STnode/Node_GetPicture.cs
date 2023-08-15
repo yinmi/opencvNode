@@ -10,7 +10,7 @@ using System.Drawing;
 namespace opencvNode.STnode
 {
     [STNode("图像操作", "Author", "Mail", "Link", "Description")]
-    public class Node_GetPicture:STNode
+    public class Node_GetPicture: Node_Base
     {
 
 
@@ -36,15 +36,7 @@ namespace opencvNode.STnode
         {
            
 
-            /*
-            if(e.Button==MouseButtons.Right)
-            {
-                Point p = new Point();
-                p.X = this.Location.X + e.X;
-                p.y = this.Location.Y + e.Y;
-                
-            }
-           */
+           
 
 
         }

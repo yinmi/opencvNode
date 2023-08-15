@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Sunny.UI;
+using opencvNode.STnode;
 
 namespace opencvNode
 {
@@ -56,7 +57,7 @@ namespace opencvNode
             setNodeWindow.ShowDialog();
             if (setNodeWindow.IsOK)
             {
-                stNodeEditor1.ActiveNode.Title = setNodeWindow.name;
+               ( (Node_Base) stNodeEditor1.ActiveNode ).ChangeTitle(setNodeWindow.name);
             }
         }
     }

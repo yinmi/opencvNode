@@ -109,7 +109,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="share\Log4Helper.cs" />
     <Compile Include="share\ShareClass.cs" />
+    <Compile Include="STnode\Node_Base.cs" />
     <Compile Include="STnode\Node_GetPicture.cs" />
     <Compile Include="toolWindow\SetNodeEditWin.cs">
       <SubType>Form</SubType>
