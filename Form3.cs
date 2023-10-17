@@ -14,8 +14,9 @@ namespace opencvNode
 
         private void Form3_Load(object sender, EventArgs e)
         {
-
+            //增加可用节点
             stNodeTreeView1.AddNode(typeof(STnode.Node_GetPicture));
+            stNodeTreeView1.AddNode(typeof(STnode.Node_Start));
 
             //初始化一个页面
             NodeEditPage nodeEditPage = new NodeEditPage();

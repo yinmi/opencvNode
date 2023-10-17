@@ -238,6 +238,7 @@ namespace opencvNode
             this.uiSymbolButton3.Symbol = 61473;
             this.uiSymbolButton3.TabIndex = 4;
             this.uiSymbolButton3.TipsFont = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiSymbolButton3.Click += new System.EventHandler(this.uiSymbolButton3_Click);
             // 
             // uiSymbolButton4
             // 

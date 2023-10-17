@@ -52,5 +52,10 @@ namespace opencvNode
             share.ShareClass.formX = this.Location.X;
             share.ShareClass.formY = this.Location.Y;
         }
+
+        private void uiSymbolButton3_Click(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

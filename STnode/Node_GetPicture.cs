@@ -13,10 +13,13 @@ namespace opencvNode.STnode
     public class Node_GetPicture: Node_Base
     {
 
+        
+
 
         public Node_GetPicture()
         {
             this.Title = "获取图片";
+            this.tool = new tool.GetPicture();
         }
 
         protected override void OnCreate()

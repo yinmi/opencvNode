@@ -11,6 +11,8 @@ namespace opencvNode.STnode
     public  class Node_Base: STNode
     {
 
+        public tool.BaseTool tool;
+
        public  Node_Base()
         {
 
