@@ -21,7 +21,7 @@ namespace opencvNode
 
         private void NodeEditPage_Load(object sender, EventArgs e)
         {
-
+          
         }
 
         private void stNodeEditor1_Click(object sender, EventArgs e)

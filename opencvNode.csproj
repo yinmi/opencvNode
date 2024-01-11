@@ -83,6 +83,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="baseTool\Parser.cs" />
+    <Compile Include="baseTool\Tokenizer .cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
